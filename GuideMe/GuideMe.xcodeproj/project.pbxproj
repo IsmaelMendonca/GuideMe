@@ -14,6 +14,7 @@
 		57318A0D1D5BEAF500FC3F5C /* GuideMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57318A0B1D5BEAF500FC3F5C /* GuideMe.xcdatamodeld */; };
 		57318A0F1D5BEAF500FC3F5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57318A0E1D5BEAF500FC3F5C /* Assets.xcassets */; };
 		57318A121D5BEAF500FC3F5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57318A101D5BEAF500FC3F5C /* LaunchScreen.storyboard */; };
+		576C41361D5C037D004DC23C /* HelpMeOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576C41351D5C037D004DC23C /* HelpMeOneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		57318A0E1D5BEAF500FC3F5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57318A111D5BEAF500FC3F5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57318A131D5BEAF500FC3F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576C41341D5C037D004DC23C /* HelpMeOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpMeOneViewController.h; sourceTree = "<group>"; };
+		576C41351D5C037D004DC23C /* HelpMeOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpMeOneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				57318A131D5BEAF500FC3F5C /* Info.plist */,
 				57318A0B1D5BEAF500FC3F5C /* GuideMe.xcdatamodeld */,
 				573189FF1D5BEAF500FC3F5C /* Supporting Files */,
+				576C41341D5C037D004DC23C /* HelpMeOneViewController.h */,
+				576C41351D5C037D004DC23C /* HelpMeOneViewController.m */,
 			);
 			path = GuideMe;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 				57318A071D5BEAF500FC3F5C /* ViewController.m in Sources */,
 				57318A041D5BEAF500FC3F5C /* AppDelegate.m in Sources */,
 				57318A011D5BEAF500FC3F5C /* main.m in Sources */,
+				576C41361D5C037D004DC23C /* HelpMeOneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +312,7 @@
 				57318A181D5BEAF500FC3F5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

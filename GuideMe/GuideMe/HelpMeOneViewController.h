@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HelpMeOneViewController.h
 //  GuideMe
 //
 //  Created by ALUNO on 10/08/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-+(void) setGradientBackground : (UIViewController *) viewController;
+@interface HelpMeOneViewController : UIViewController
 
 @end
-
